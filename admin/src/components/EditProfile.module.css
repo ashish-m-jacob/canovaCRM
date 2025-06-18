@@ -1,0 +1,64 @@
+.editProfileContainer {
+  border: 1px solid #b1b1b1;
+
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 2vh;
+  padding-bottom: none;
+
+  border-radius: 1rem;
+}
+
+hr {
+  color: #b1b1b1;
+  margin-top: 0.5vh;
+}
+
+.editProfileForm {
+  margin-top: 2vh;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+}
+
+.formGroup input {
+  width: 50%;
+  padding: 1.5vh;
+  border-radius: 0.4rem;
+  border: 1px solid #3e3e3e;
+  font-size: 16px;
+}
+
+label {
+  font-size: 14px;
+  color: #5e5e5e;
+}
+
+.heading span {
+  border-bottom: 3px solid #747474;
+  padding: 0.5vh;
+}
+
+.heading {
+  padding-bottom: 0.7vh;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.submitButton {
+  width: 15%;
+  height: 5vh;
+  border-radius: 0.7rem;
+  border: none;
+  background-color: #d9d9d9;
+  color: #636060;
+  margin-top: 5vh;
+  margin-left: 62vw;
+  cursor: pointer;
+}

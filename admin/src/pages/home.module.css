@@ -1,0 +1,30 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+}
+
+.navbar {
+  width: 20vw;
+  height: 100vh;
+  background-color: #d9d9d9;
+}
+
+.content {
+  width: 80vw;
+  background-color: white;
+}
+
+hr {
+  background-color: #ececec;
+  border: none;
+  height: 0.2vh;
+}
+
+.settingsContent {
+  font-family: "Inter", sans-serif;
+  padding: 4vh;
+}
+
+.profileForm {
+  margin-top: 4vh;
+}
