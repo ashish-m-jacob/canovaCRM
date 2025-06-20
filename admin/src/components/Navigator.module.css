@@ -1,4 +1,5 @@
 .navigatorContainer {
   display: flex;
   gap: 0.6vw;
+  font-size: 12px;
 }

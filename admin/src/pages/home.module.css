@@ -22,9 +22,38 @@ hr {
 
 .settingsContent {
   font-family: "Inter", sans-serif;
-  padding: 4vh;
+
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-bottom: 4vh;
+  padding-top: 1vh;
 }
 
 .profileForm {
   margin-top: 4vh;
+}
+
+.employeesContent {
+  font-family: "Inter", sans-serif;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-bottom: 4vh;
+  padding-top: 1vh;
+}
+
+.navigatorSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addEmployeeButton {
+  width: 8vw;
+  padding: 1vh;
+  border-radius: 0.7rem;
+  border: none;
+  background-color: #d9d9d9;
+  font-family: "REM", sans-serif;
+  color: #636060;
+  cursor: pointer;
 }

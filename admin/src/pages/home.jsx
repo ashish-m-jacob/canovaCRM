@@ -35,6 +35,23 @@ const Home = () => {
             </div>
           </>
         )}
+
+        {selectedPage === "Employees" && (
+          <>
+            <SearchBar />
+            <hr />
+            <div className={styles.employeesContent}>
+              <div className={styles.navigatorSection}>
+                <Navigator currentPage={selectedPage} />
+                <button className={styles.addEmployeeButton}>
+                  Add Employee
+                </button>
+              </div>
+
+              <h2>Employees Page</h2>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
